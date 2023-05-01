@@ -40,7 +40,7 @@ Description=Bazarr
 After=network.target
 [Service]
 WorkingDirectory=/opt/bazarr
-ExecStart=python3 bazarr.py -s 0.0.0.0:6767
+ExecStart=python3 bazarr.py
 Restart=always
 User=root
 [Install]
