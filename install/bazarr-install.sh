@@ -24,8 +24,8 @@ $STD apt-get install -y python3-distutils
 msg_ok "Installed Dependencies"
 
 msg_info "Installing Bazarr"
-mkdir -p /opt/tdarr
-cd /opt/tdarr
+mkdir -p /opt/bazarr
+cd /opt/bazarr
 wget -q 'https://github.com/morpheus65535/bazarr/releases/latest/download/bazarr.zip'
 $STD unzip bazarr.zip
 rm -rf bazarr.zip
