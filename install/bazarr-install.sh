@@ -31,7 +31,6 @@ $STD unzip bazarr.zip
 rm -rf bazarr.zip
 chmod +x bazarr
 $STD python3 -m pip install -r requirements.txt
-./bazarr &>/dev/null
 msg_ok "Installed Bazarr"
 
 msg_info "Creating Service"
