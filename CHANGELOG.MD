@@ -2,6 +2,15 @@
 # Change Log
 All notable changes to this project will be documented in this file.
 
+## 2023-05-01
+
+### Changed
+
+- **OctoPrint LXC**
+  - NEW Script
+- **Proxmox VE Intel Processor Microcode**
+  - NEW Script
+
 ## 2023-04-30
 
 ### Changed
